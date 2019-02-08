@@ -10,7 +10,8 @@ import javax.swing.JRadioButton;
 public class Fortune extends JFrame implements ActionListener,ItemListener{
 	/*
 	 */
-	private static final long serialVersionUID = 1L;					//謎のエラーを回避するため仮生成
+	private static final long serialVersionUID = 1L;					//シリアライゼーションエラーを回避するためバージョン宣言
+	
 	Button b,b2,fortune;															//変数宣言をメソッドの外に書くことで、ActionPerformメソッドでインスタンスを呼び出せた
 	Label l_b,l_kiken,l_seibetsu,l_cmb,l_fortune,l_fortune2,l_fortune3,l_fortune4;
 	JRadioButton r_man,r_women;
